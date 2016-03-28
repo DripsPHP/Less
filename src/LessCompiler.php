@@ -7,8 +7,14 @@ use lessc;
 
 class LessCompiler implements ICompiler
 {
-    public static function compile($string){
-        $less = new lessc;
-        return $less->compile($string);
+    private static $compiler;
+
+    public static function compile($string)
+    {
+        if(static::$compiler == null){
+            static::$compiler = new lessc;
+        }
+
+        return static::$compiler->compile($string);
     }
 }
