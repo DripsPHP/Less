@@ -15,7 +15,7 @@ use Drips\LessCompiler\LessCompiler;
 $less_file = "path/to/file.less";
 $css_file = "path/to/style.css";
 
-// Inhalt des LESS-Datei auslesen
+// Inhalt der LESS-Datei auslesen
 $less = file_get_contents($less_file);
 // LESS mithilfe des LessCompilers in CSS übersetzen
 $css = LessCompiler::compile($less);
