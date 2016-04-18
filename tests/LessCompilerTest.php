@@ -5,8 +5,6 @@ namespace tests;
 use Drips\LessCompiler\LessCompiler;
 use PHPUnit_Framework_TestCase;
 
-include __DIR__.'/../vendor/autoload.php';
-
 class LessCompilerTest extends PHPUnit_Framework_TestCase
 {
     /**
