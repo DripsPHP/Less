@@ -12,7 +12,8 @@ class LessCompilerTest extends PHPUnit_Framework_TestCase
      */
     public function testLessCompiler($less, $css)
     {
-        $this->assertEquals(LessCompiler::compile($less), $css);
+        $compiler = new LessCompiler;
+        $this->assertEquals($compiler->compile($less), $css);
     }
 
     public function dateProvider()
