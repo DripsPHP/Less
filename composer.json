@@ -5,10 +5,8 @@
     "license": "MIT",
     "require": {
         "php": ">=5.4",
-        "leafo/lessphp": ">=0.4"
-    },
-    "suggest": {
-        "drips/mvc": "Zur Verwendung des Controllers (zum automatischen Übersetzen von LESS-Dateien in CSS-Dateien)"
+        "leafo/lessphp": ">=0.4",
+        "drips/mvc": "dev-master"
     },
     "autoload": {
         "psr-4": {
