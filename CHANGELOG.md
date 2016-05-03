@@ -1,6 +1,6 @@
 # Changelog
 
-## MASTER
+## Version 0.2
 
  - Controller hinzugefügt
  - Compilerstruktur geändert!
