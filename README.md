@@ -18,7 +18,8 @@ $css_file = "path/to/style.css";
 // Inhalt der LESS-Datei auslesen
 $less = file_get_contents($less_file);
 // LESS mithilfe des LessCompilers in CSS übersetzen
-$css = LessCompiler::compile($less);
+$compiler = new LessCompiler;
+$css = $compiler->compile($less);
 // CSS-Code in die jeweilige Datei schreiben
 file_put_contents($css_file, $css);
 ```
