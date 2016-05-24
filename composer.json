@@ -6,7 +6,7 @@
     "require": {
         "php": ">=5.4",
         "leafo/lessphp": ">=0.4",
-        "drips/mvc": "^0.2.0"
+        "drips/mvc": "dev-master"
     },
     "autoload": {
         "psr-4": {
