@@ -4,9 +4,7 @@
     "keywords": ["compiler", "less"],
     "license": "MIT",
     "require": {
-        "php": ">=5.4",
-        "leafo/lessphp": ">=0.4",
-        "drips/mvc": "dev-master"
+        "leafo/lessphp": ">=0.4"
     },
     "autoload": {
         "psr-4": {
