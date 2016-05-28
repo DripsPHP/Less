@@ -5,7 +5,8 @@
     "license": "MIT",
     "require": {
         "leafo/lessphp": ">=0.4",
-	"drips/mvc": "dev-master"
+	"drips/mvc": "dev-master",
+        "drips/minimizecompiler": "dev-master"
     },
     "autoload": {
         "psr-4": {
