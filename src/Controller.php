@@ -7,7 +7,7 @@ use Drips\MinimizeCompiler\MinimizeCompiler;
 
 class Controller extends CompileController
 {
-    protected $source_directory = "less";
+    protected $source_directory = DRIPS_DIRECTORY."/less";
     protected $file_extension = "less";
     protected $response_type = "text/css";
     protected $minimize = true;
