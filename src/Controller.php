@@ -5,9 +5,11 @@ namespace Drips\LessCompiler;
 use Drips\MVC\CompileController;
 use Drips\MinimizeCompiler\MinimizeCompiler;
 
+define('DRIPS_LESS_DIRECTORY', DRIPS_DIRECTORY.'/less');
+
 class Controller extends CompileController
 {
-    protected $source_directory = DRIPS_DIRECTORY."/less";
+    protected $source_directory = DRIPS_LESS_DIRECTORY;
     protected $file_extension = "less";
     protected $response_type = "text/css";
     protected $minimize = true;
