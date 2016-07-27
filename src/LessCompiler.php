@@ -1,7 +1,9 @@
 <?php
 
-namespace Drips\LessCompiler;
+namespace Drips\Less;
 
 use lessc;
 
-class LessCompiler extends lessc {}
+class Compiler extends lessc
+{
+}

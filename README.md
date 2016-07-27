@@ -10,7 +10,7 @@ Mithilfe des LessCompilers kann LESS in CSS übersetzt werden. Dies funktioniert
 ```php
 <?php
 
-use Drips\LessCompiler\LessCompiler;
+use Drips\Less\Compiler;
 
 $less_file = "path/to/file.less";
 $css_file = "path/to/style.css";
@@ -18,7 +18,7 @@ $css_file = "path/to/style.css";
 // Inhalt der LESS-Datei auslesen
 $less = file_get_contents($less_file);
 // LESS mithilfe des LessCompilers in CSS übersetzen
-$compiler = new LessCompiler;
+$compiler = new Compiler;
 $css = $compiler->compile($less);
 // CSS-Code in die jeweilige Datei schreiben
 file_put_contents($css_file, $css);

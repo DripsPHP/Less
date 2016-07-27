@@ -1,11 +1,11 @@
 <?php
 
-namespace Drips\LessCompiler;
+namespace Drips\Less;
 
-use Drips\MVC\CompileController;
 use Drips\MinimizeCompiler\MinimizeCompiler;
+use Drips\MVC\CompileController;
 
-define('DRIPS_LESS_DIRECTORY', DRIPS_DIRECTORY.'/less');
+define('DRIPS_LESS_DIRECTORY', DRIPS_DIRECTORY . '/less');
 
 class Controller extends CompileController
 {
@@ -19,7 +19,7 @@ class Controller extends CompileController
         $compiler = new LessCompiler;
         $compiler->setImportDir($this->source_directory);
         $compiled = $compiler->compile($content);
-        if($this->minimize){
+        if ($this->minimize) {
             $compiled = MinimizeCompiler::compile($compiled, MinimizeCompiler::CSS);
         }
         return $compiled;
