@@ -2,7 +2,7 @@
 
 namespace Drips\Less;
 
-use Drips\MinimizeCompiler\MinimizeCompiler;
+use Drips\Minimize\Compiler as MinimizeCompiler;
 use Drips\MVC\CompileController;
 
 define('DRIPS_LESS_DIRECTORY', DRIPS_DIRECTORY . '/less');

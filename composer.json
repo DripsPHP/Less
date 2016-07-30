@@ -9,7 +9,7 @@
   "require": {
     "leafo/lessphp": ">=0.4",
     "drips/mvc": "^1.0",
-    "drips/minimize": "1.0"
+    "drips/minimize": "^1.0"
   },
   "autoload": {
     "psr-4": {
