@@ -5,7 +5,7 @@ namespace Drips\Less;
 use Drips\Minimize\Compiler as MinimizeCompiler;
 use Drips\MVC\CompileController;
 
-define('DRIPS_LESS_DIRECTORY', (definied('DRIPS_DIRECTORY') ? DRIPS_DIRECTORY : __DIR__) . '/less');
+define('DRIPS_LESS_DIRECTORY', (defined('DRIPS_DIRECTORY') ? DRIPS_DIRECTORY : __DIR__) . '/less');
 
 class Controller extends CompileController
 {
