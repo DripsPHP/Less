@@ -26,7 +26,7 @@ file_put_contents($css_file, $css);
 
 Zusätzlich beinhaltet der LessCompiler einen Controller zum Automatischen Ausliefern von LESS-Dateien als CSS-Dateien. D.h. sie werden automatisch übersetzt.
 
-In deinem `DRIPS Verzeichnis legst du zunächst ein Verzeichnis `less` an. In diesem befinden sich alle deine LESS-Dateien, die du später gerne übersetzt ausliefern möchtest. Anschließend musst du den jeweiligen Controller als Route registrieren, dass die Datei automatisch ausgeliefert werden kann.
+In deinem `DRIPS` Verzeichnis legst du zunächst ein Verzeichnis `less` an. In diesem befinden sich alle deine LESS-Dateien, die du später gerne übersetzt ausliefern möchtest. Anschließend musst du den jeweiligen Controller als Route registrieren, dass die Datei automatisch ausgeliefert werden kann.
 
 ```php
 <?php
